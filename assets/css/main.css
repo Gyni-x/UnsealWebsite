@@ -2347,24 +2347,25 @@ body::before {
     content: none !important;
 }
 
-/* Carousel effect */
 /* Carousel Container */
 .character-carousel {
     display: flex;
-    flex-direction: row; /* Forces a horizontal layout */
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
+    flex-direction: row;
+    overflow-x: scroll; /* Allows the carousel to be scrollable by dragging */
+    scroll-snap-type: x mandatory; /* Snaps the items to the center */
     -webkit-overflow-scrolling: touch;
     padding: 0 50vw;
     gap: 20px;
+    position: relative;
 }
 
 /* Individual Character Cards */
 .character-card {
-    scroll-snap-align: center;
+    scroll-snap-align: center; /* Centers the item when snapped */
     flex: 0 0 auto;
     width: 50vw;
     height: 50vh;
+    transition: transform 0.3s ease-in-out;
 }
 
 /* Images within the Cards */
@@ -2374,3 +2375,31 @@ body::before {
     object-fit: contain;
 }
 
+/* Button Navigation */
+.carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.nav-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    user-select: none;
+    pointer-events: all;
+}
+
+/* Hide the scrollbar */
+.character-carousel::-webkit-scrollbar {
+    display: none;
+}
+.character-carousel {
+    scrollbar-width: none;
+}
