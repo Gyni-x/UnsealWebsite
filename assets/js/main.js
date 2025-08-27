@@ -224,7 +224,17 @@
 document.addEventListener('DOMContentLoaded', function() {
     const carousel = document.querySelector('.character-carousel');
     const items = document.querySelectorAll('.character-card');
+    const prevButton = document.querySelector('.prev-button');
+    const nextButton = document.querySelector('.next-button');
+    let currentIndex = 0;
 
+    function scrollToCard(index) {
+        if (items[index]) {
+            items[index].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        }
+    }
+
+    // This part is for the zoom effect on scroll
     function updateScale() {
         const viewportCenter = window.innerWidth / 2;
 
@@ -233,13 +243,27 @@ document.addEventListener('DOMContentLoaded', function() {
             const itemCenter = itemRect.left + itemRect.width / 2;
             const distance = Math.abs(viewportCenter - itemCenter);
             
-            // Calculate scale based on distance from the center
-            const scale = 1 - (distance / viewportCenter) * 0.5; // Adjust the 0.5 to control the zoom amount
+            const scale = 1 - (distance / viewportCenter) * 0.5;
             item.style.transform = `scale(${Math.max(0.5, scale)})`;
         });
     }
 
     carousel.addEventListener('scroll', updateScale);
-    window.addEventListener('resize', updateScale); // Re-run on resize
-    updateScale(); // Initial call
+    window.addEventListener('resize', updateScale);
+    updateScale(); // Initial call to set the correct scale
+
+    // This part handles the button clicks
+    prevButton.addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+            scrollToCard(currentIndex);
+        }
+    });
+
+    nextButton.addEventListener('click', () => {
+        if (currentIndex < items.length - 1) {
+            currentIndex++;
+            scrollToCard(currentIndex);
+        }
+    });
 });
