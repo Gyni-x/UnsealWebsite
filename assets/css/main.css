@@ -2347,16 +2347,15 @@ body::before {
 }
 
 /* Carousel effect */
-.character-carousel {
-    display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch; /* For smoother scrolling on iOS */
-    padding: 0 50vw; /* This is key to centering the items */
-    gap: 20px; /* Adds space between your images */
-}
-
 .character-card {
     scroll-snap-align: center;
-    flex: 0 0 auto; /* Prevents items from stretching */
+    flex: 0 0 auto;
+    width: 50vw; /* Adjust this to control the width of each card */
+    height: 50vh; /* Adjust this to control the height of each card */
+}
+
+.character-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* This will make the image fit the card without cropping */
 }
