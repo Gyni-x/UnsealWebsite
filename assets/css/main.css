@@ -2347,6 +2347,8 @@ body::before {
     content: none !important;
 }
 
+
+
 /* Carousel Container */
 .character-carousel {
     display: flex;
@@ -2357,6 +2359,12 @@ body::before {
     padding: 0 50vw;
     gap: 20px;
     position: relative;
+    scrollbar-width: none; /* For Firefox to hide the scrollbar */
+}
+
+/* Hides scrollbar on modern browsers */
+.character-carousel::-webkit-scrollbar {
+    display: none;
 }
 
 /* Individual Character Cards */
@@ -2378,12 +2386,13 @@ body::before {
 /* Button Navigation */
 .carousel-nav {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
     display: flex;
     justify-content: space-between;
-    z-index: 100;
+    z-index: 200;
 }
 
 .nav-button {
@@ -2396,15 +2405,6 @@ body::before {
     pointer-events: all;
 }
 
-/* Hide the scrollbar */
-.character-carousel::-webkit-scrollbar {
-    display: none;
-}
-
-.character-carousel {
-    scrollbar-width: none;
-}
-
 /* Custom Header Styling */
 .section-header {
     position: absolute;
@@ -2415,22 +2415,8 @@ body::before {
     z-index: 200;
 }
 
-/* Position the Carousel Navigation */
-#two .carousel-nav {
-    position: absolute;
-    bottom: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 200;
-}
-
 /* Position the Next button */
 #two .button.down {
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
-    z-index: 200;
-}
-
