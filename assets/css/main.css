@@ -2345,3 +2345,18 @@ input, select, textarea {
 body::before {
     content: none !important;
 }
+
+/* Carousel effect */
+.character-carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* For smoother scrolling on iOS */
+    padding: 0 50vw; /* This is key to centering the items */
+    gap: 20px; /* Adds space between your images */
+}
+
+.character-card {
+    scroll-snap-align: center;
+    flex: 0 0 auto; /* Prevents items from stretching */
+}
