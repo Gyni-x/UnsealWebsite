@@ -2400,6 +2400,7 @@ body::before {
 .character-carousel::-webkit-scrollbar {
     display: none;
 }
+
 .character-carousel {
     scrollbar-width: none;
 }
