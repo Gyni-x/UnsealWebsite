@@ -2403,3 +2403,33 @@ body::before {
 .character-carousel {
     scrollbar-width: none;
 }
+
+/* Custom Header Styling */
+.section-header {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 200;
+}
+
+/* Position the Carousel Navigation */
+#two .carousel-nav {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 200;
+}
+
+/* Position the Next button */
+#two .button.down {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 200;
+}
+
