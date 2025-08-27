@@ -216,4 +216,30 @@
 				$window.trigger('resize');
 			});
 
+
 })(jQuery);
+
+// Carousel effect
+
+document.addEventListener('DOMContentLoaded', function() {
+    const carousel = document.querySelector('.character-carousel');
+    const items = document.querySelectorAll('.character-card');
+
+    function updateScale() {
+        const viewportCenter = window.innerWidth / 2;
+
+        items.forEach(item => {
+            const itemRect = item.getBoundingClientRect();
+            const itemCenter = itemRect.left + itemRect.width / 2;
+            const distance = Math.abs(viewportCenter - itemCenter);
+            
+            // Calculate scale based on distance from the center
+            const scale = 1 - (distance / viewportCenter) * 0.5; // Adjust the 0.5 to control the zoom amount
+            item.style.transform = `scale(${Math.max(0.5, scale)})`;
+        });
+    }
+
+    carousel.addEventListener('scroll', updateScale);
+    window.addEventListener('resize', updateScale); // Re-run on resize
+    updateScale(); // Initial call
+});
