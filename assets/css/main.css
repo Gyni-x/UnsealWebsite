@@ -460,7 +460,7 @@ input, select, textarea {
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: #00ff00;
+			background: #000000;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2043,7 +2043,9 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #000000;
+				background: url("assets/images/BG.jpg") repeat fixed;
+				background-size: cover;
+				background-color: #000000; /* Fallback if image not loaded */
 			}
 
 			.main.style3.secondary {
@@ -2426,6 +2428,7 @@ body::before {
 	
 
 	
+
 
 
 
