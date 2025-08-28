@@ -898,6 +898,7 @@ input, select, textarea {
 		border: 0;
 	}
 
+/*Contact placeholder text opacity*/
 	::-webkit-input-placeholder {
 		opacity: 1;
 	}
@@ -2428,6 +2429,7 @@ body::before {
 	
 
 	
+
 
 
 
