@@ -2447,6 +2447,31 @@ p {
     color: #ffffff !important;
 }
 
+	/* Final fix to force all backgrounds to be black */
+body.is-preload:after {
+    background: #000000 !important;
+}
+
+html, body, #wrapper {
+    background-color: #000000 !important;
+    background: transparent !important;
+}
+
+.main, .box, .box.style2, .main.fullscreen, .main.style3.primary {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.main,
+.box,
+.box.style2 {
+    color: #fff !important;
+}
+
+p, a {
+    color: #fff !important;
+}
+
 
 
 
