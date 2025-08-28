@@ -662,10 +662,12 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		/* Send message button color */
+		background-color: #292929;
 		border: 0;
 		border-radius: 3.5em;
-		color: #00aaff;
+		/* Send message text color */
+		color: #f6f6f6;
 		cursor: pointer;
 		display: inline-block;
 		height: 3.5em;
@@ -2429,6 +2431,7 @@ body::before {
 	
 
 	
+
 
 
 
