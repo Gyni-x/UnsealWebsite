@@ -621,7 +621,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background: #000000;
 		color: #39454b;
 		padding: 2em;
 	}
@@ -665,7 +665,7 @@ input, select, textarea {
 		background-color: #98c593;
 		border: 0;
 		border-radius: 3.5em;
-		color: #ffffff;
+		color: #000000;
 		cursor: pointer;
 		display: inline-block;
 		height: 3.5em;
@@ -1220,7 +1220,7 @@ input, select, textarea {
 
 			table.default thead {
 				background: #39454b;
-				color: #ffffff;
+				color: #000000;
 			}
 
 			table.default tfoot {
@@ -1278,7 +1278,7 @@ input, select, textarea {
 			position: absolute;
 			bottom: 0;
 			left: 0;
-			background: #ffffff;
+			background: #000000;
 			width: 100%;
 			height: 3em;
 			line-height: 2.8em;
@@ -1377,7 +1377,7 @@ input, select, textarea {
 				border-radius: 100%;
 				box-shadow: inset 0 0 0 2px #fff;
 				background: url("images/poptrox-closer.svg") center center;
-				color: #ffffff !important;
+				color: #000000 !important;
 			}
 
 		.poptrox-popup:hover .closer {
@@ -2043,7 +2043,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #ffffff;
+				background: #000000;
 			}
 
 			.main.style3.secondary {
@@ -2051,7 +2051,7 @@ input, select, textarea {
 			}
 
 		.main.dark {
-			color: #ffffff;
+			color: #000000;
 		}
 
 			.main.dark a {
@@ -2059,7 +2059,7 @@ input, select, textarea {
 			}
 
 			.main.dark .button.style2 {
-				border-color: #ffffff;
+				border-color: #000000;
 			}
 
 				.main.dark .button.style2:hover {
@@ -2424,7 +2424,7 @@ body::before {
     bottom: 0;
     left: 50%;
 	
-/* Fix background color */
+/* Fix background color 
 html, body {
     background-color: #000000 !important;
 }
@@ -2439,3 +2439,4 @@ body.is-preload:after {
     background-color: transparent !important;
 }
 
+*/
