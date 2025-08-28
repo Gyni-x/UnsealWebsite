@@ -2353,7 +2353,7 @@ body::before {
 
 
 
-/* Carousel Container */
+/* -----------------Carousel Container---------------- */
 .character-carousel {
     display: flex;
     flex-direction: row;
@@ -2365,10 +2365,9 @@ body::before {
     position: relative;
     scrollbar-width: none; /* For Firefox to hide the scrollbar */
 }
-
 /* Hides scrollbar on modern browsers */
 .character-carousel::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
 
 /* Individual Character Cards */
@@ -2426,28 +2425,23 @@ body::before {
     left: 50%;
 	
 /* Fix background color */
-html, body {
-    background-color: #000000 !important;
-}
 	/* Fix for the white pre-load overlay */
-body.is-preload:after {
-    background: #000000 !important;
-}
+	body.is-preload:after {
+		background: #000000 !important;
+	}
+	/* Ensure the main site background is black */
+	html, body {
+		background-color: #000000 !important;
+	}
+	/* Change the background of the content boxes to a darker color */
+	.box {
+		background: #222222;
+	}
+	/* Also for the style2 box */
+	.box.style2 {
+		background-color: rgba(34, 34, 34, 0.9);
+	}
 
-/* Ensure the main site background is black */
-html, body {
-    background-color: #000000 !important;
-}
-
-/* Change the background of the content boxes to a darker color */
-.box {
-    background: #222222;
-}
-
-/* Also for the style2 box */
-.box.style2 {
-    background-color: rgba(34, 34, 34, 0.9);
-}
 
 
 
