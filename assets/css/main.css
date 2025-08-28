@@ -2441,6 +2441,27 @@ body::before {
 	.box.style2 {
 		background-color: rgba(34, 34, 34, 0.9);
 	}
+	/* Ensure the entire background is black */
+	html, body {
+    background-color: #000000 !important;
+}
+
+/* Make sure the main content boxes are not white */
+.box {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Set the background of the fullscreen sections to black, if they don't have an image */
+.main.fullscreen {
+    background-color: #000000 !important;
+}
+
+/* Change the text color to be visible on black */
+.main.style3.primary p {
+    color: #ffffff !important;
+}
+
 
 
 
