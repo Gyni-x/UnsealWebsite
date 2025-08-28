@@ -2425,56 +2425,18 @@ body::before {
     left: 50%;
 	
 /* Fix background color */
-	/* Fix for the white pre-load overlay */
+html, body {
+    background-color: #000000 !important;
+}
+
 body.is-preload:after {
     background: #000000 !important;
 }
 
-/* Force all backgrounds to black, or transparent if needed */
-html, body, #wrapper {
-    background-color: #000000 !important;
+#wrapper, .box, .box.style2, .main.fullscreen, .main.style3.primary {
     background: transparent !important;
 }
 
-/* Ensure sections and content boxes are transparent */
-.main, .box, .box.style2, .main.fullscreen, .main.style3.primary {
-    background: transparent !important;
-    background-color: transparent !important;
-}
-
-/* Change the text color to be visible on black */
-p {
+p, h1, h2, h3, h4, a, li, ul, span {
     color: #ffffff !important;
 }
-
-	/* Final fix to force all backgrounds to be black */
-body.is-preload:after {
-    background: #000000 !important;
-}
-
-html, body, #wrapper {
-    background-color: #000000 !important;
-    background: transparent !important;
-}
-
-.main, .box, .box.style2, .main.fullscreen, .main.style3.primary {
-    background: transparent !important;
-    background-color: transparent !important;
-}
-
-.main,
-.box,
-.box.style2 {
-    color: #fff !important;
-}
-
-p, a {
-    color: #fff !important;
-}
-
-
-
-
-
-
-
