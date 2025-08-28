@@ -2285,13 +2285,12 @@ input, select, textarea {
 /* One */
 
 	#one {
-	background: url("images/overlay.png"), url("../../images/one.jpg");
-	background-size: 256px 256px, cover;
-	background-attachment: fixed, fixed;
-	background-position: top left, center center;
-	height: 100vh; /* This will make the section fill the screen */
-	}
-
+    background: url("images/overlay.png"), url("../../images/one.jpg");
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+    height: calc(100vh - 80px); /* Adjusts the height to account for the navigation bar */
+}
 /* Two */
 
 	#two {
@@ -2420,3 +2419,4 @@ body::before {
     position: absolute;
     bottom: 0;
     left: 50%;
+
