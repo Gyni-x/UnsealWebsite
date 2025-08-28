@@ -504,7 +504,7 @@ input, select, textarea {
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
-		color: #ffffff;
+		color: #ff0000;
 		letter-spacing: 0.025em;
 	}
 
@@ -2424,11 +2424,9 @@ body::before {
     bottom: 0;
     left: 50%;
 	
-/* Set Intro text to white */
-	#intro h2, #intro .intro-text {
-    color: #ffffff !important;
-}
+
 	
+
 
 
 
