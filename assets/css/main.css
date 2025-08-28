@@ -2444,30 +2444,32 @@ body::before {
 
 	
 	/* Ensure the entire background is black */
+/* Force all backgrounds to black, or transparent if needed */
 html, body {
     background-color: #000000 !important;
 }
 
-/* Make sure the main content boxes are not white */
-.box {
+/* Ensure the main content containers are transparent */
+#wrapper {
     background: transparent !important;
 }
 
-/* Ensure sections with a primary style have a transparent background */
-.main.style3.primary {
+/* Make sure all major sections and content boxes are not white */
+.main,
+.box,
+.box.style2 {
     background: transparent !important;
 }
 
-/* Set the background of the fullscreen sections to black */
-.main.fullscreen {
-    background-color: #000000 !important;
+/* If a video background is used, ensure it is not covered by a white layer */
+.main video {
+    background-color: transparent !important;
 }
 
-/* Change the text color to be visible on black */
-p {
-    color: #ffffff !important;
+/* Ensure any pre-load animation or overlay is transparent or black */
+body.is-preload:after {
+    background: #000000 !important;
 }
-
 
 
 
