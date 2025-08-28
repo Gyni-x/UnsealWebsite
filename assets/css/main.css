@@ -2431,12 +2431,11 @@ html, body {
 
 body.is-preload:after {
     background: #000000 !important;
+    display: none !important;
 }
 
-#wrapper, .box, .box.style2, .main.fullscreen, .main.style3.primary {
+#wrapper, .box, .box.style2, .main, .main.fullscreen, .main.style3.primary {
     background: transparent !important;
+    background-color: transparent !important;
 }
 
-p, h1, h2, h3, h4, a, li, ul, span {
-    color: #ffffff !important;
-}
