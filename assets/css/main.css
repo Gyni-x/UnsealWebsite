@@ -230,7 +230,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.5) rotate(360deg);
 			-ms-transform: scale(0.5) rotate(360deg);
 			transform: scale(0.5) rotate(360deg);
-			color: #ff0000;
+			color: #ffffff;
 			z-index: 100001;
 		}
 
@@ -2440,5 +2440,6 @@ body.is-preload:after {
 }
 
 */
+
 
 
