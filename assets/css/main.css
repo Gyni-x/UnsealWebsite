@@ -877,7 +877,7 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #010101;
+			border-color: #9ac8e9;
 		}
 
 	input[type="text"],
@@ -899,7 +899,7 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		opacity: 0.375;
+		opacity: 1;
 	}
 
 	:-moz-placeholder {
@@ -2428,6 +2428,7 @@ body::before {
 	
 
 	
+
 
 
 
