@@ -230,7 +230,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.5) rotate(360deg);
 			-ms-transform: scale(0.5) rotate(360deg);
 			transform: scale(0.5) rotate(360deg);
-			color: #ffffff;
+			color: #e5e6e7;
 			z-index: 100001;
 		}
 
@@ -622,7 +622,7 @@ input, select, textarea {
 
 	.box {
 		background: #000000;
-		color: #39454b;
+		color: #010101;
 		padding: 2em;
 	}
 
@@ -665,7 +665,7 @@ input, select, textarea {
 		background-color: #98c593;
 		border: 0;
 		border-radius: 3.5em;
-		color: #000000;
+		color: #00aaff;
 		cursor: pointer;
 		display: inline-block;
 		height: 3.5em;
@@ -2424,22 +2424,7 @@ body::before {
     bottom: 0;
     left: 50%;
 	
-/* Fix background color 
-html, body {
-    background-color: #000000 !important;
-}
 
-body.is-preload:after {
-    background: #000000 !important;
-    display: none !important;
-}
-
-#wrapper, .box, .box.style2, .main, .main.fullscreen, .main.style3.primary {
-    background: transparent !important;
-    background-color: transparent !important;
-}
-
-*/
 
 
 
