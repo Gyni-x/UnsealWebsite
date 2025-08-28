@@ -858,7 +858,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		color: #39454b;
+		color: #00ff00;
 		display: block;
 		width: 100%;
 		padding: 0.65em 0.75em;
@@ -2428,6 +2428,7 @@ body::before {
 	
 
 	
+
 
 
 
