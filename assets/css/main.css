@@ -91,7 +91,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #00aaff;
+		background: #000000;
 		height: 100%;
 		min-width: 320px;
 	}
@@ -460,7 +460,7 @@ input, select, textarea {
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: #000000;
+			background: #00ff00;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2426,6 +2426,7 @@ body::before {
 	
 
 	
+
 
 
 
