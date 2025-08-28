@@ -2424,6 +2424,12 @@ body::before {
     position: absolute;
     bottom: 0;
     left: 50%;
+	
+/* Fix background color */
+html, body {
+    background-color: #000000 !important;
+}
+
 
 
 
