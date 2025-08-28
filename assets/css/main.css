@@ -2426,51 +2426,26 @@ body::before {
 	
 /* Fix background color */
 	/* Fix for the white pre-load overlay */
-	body.is-preload:after {
-		background: #000000 !important;
-	}
-	/* Ensure the main site background is black */
-	html, body {
-		background-color: #000000 !important;
-	}
-	/* Change the background of the content boxes to a darker color */
-	.box {
-		background: #222222;
-	}
-	/* Also for the style2 box */
-	.box.style2 {
-		background-color: rgba(34, 34, 34, 0.9);
-	}
-
-	
-	/* Ensure the entire background is black */
-/* Force all backgrounds to black, or transparent if needed */
-html, body {
-    background-color: #000000 !important;
-}
-
-/* Ensure the main content containers are transparent */
-#wrapper {
-    background: transparent !important;
-}
-
-/* Make sure all major sections and content boxes are not white */
-.main,
-.box,
-.box.style2 {
-    background: transparent !important;
-}
-
-/* If a video background is used, ensure it is not covered by a white layer */
-.main video {
-    background-color: transparent !important;
-}
-
-/* Ensure any pre-load animation or overlay is transparent or black */
 body.is-preload:after {
     background: #000000 !important;
 }
 
+/* Force all backgrounds to black, or transparent if needed */
+html, body, #wrapper {
+    background-color: #000000 !important;
+    background: transparent !important;
+}
+
+/* Ensure sections and content boxes are transparent */
+.main, .box, .box.style2, .main.fullscreen, .main.style3.primary {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Change the text color to be visible on black */
+p {
+    color: #ffffff !important;
+}
 
 
 
