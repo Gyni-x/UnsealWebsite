@@ -2036,24 +2036,6 @@ input, select, textarea {
 				transform: translateX(100%);
 			}
 
-/*panels container*/
-.panels-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
-.panel {
-    background-color: #000000;
-    color: #e5e6e7;
-    padding: 2em;
-    flex: 1;
-    margin: 1em;
-    max-width: 45%;
-}
-
 
 
 
@@ -2330,6 +2312,40 @@ input, select, textarea {
 #three {
 	background: url("images/overlay.png"), url("../../images/two.jpg");
     height: calc(100vh - 80px);
+
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Style the header for the "Team" title */
+#three header {
+    text-align: center;
+    position: relative;
+    top: -10em; /* Adjust this value to move the header up or down */
+    z-index: 10;
+}
+
+/* Force the two panels to display side-by-side */
+.panels-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 80em; /* Adjust this to control the total width of the panels */
+    position: relative;
+    margin-top: -5em; /* Adjust this value to move panels up or down */
+}
+
+/* Ensure panels don't take up the full screen */
+.panels-container .main.style2.left,
+.panels-container .main.style2.right {
+    position: relative;
+    width: 45%; /* Adjust width of each panel */
+    flex: 0 0 auto;
+    max-width: 45%; /* Prevent panels from getting too big */
+    margin: 1em; /* Add some space between them */
+    height: auto; /* Allow panels to fit their content */
 }
 
 /* Contact */
@@ -2453,6 +2469,7 @@ body::before {
 	
 
 	
+
 
 
 
