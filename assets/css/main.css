@@ -2049,7 +2049,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: url("images/BG.main.style3.primary.jpg") repeat fixed;
+				/*background: url("images/BG.main.style3.primary.jpg") repeat fixed;*/
 				background-size: cover;
 				background-color: #000000; /* Fallback if image not loaded */
 			}
@@ -2464,6 +2464,7 @@ body::before {
 	
 
 	
+
 
 
 
