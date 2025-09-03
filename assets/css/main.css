@@ -2049,7 +2049,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				/*background: url("images/BG.main.style3.primary.jpg") repeat fixed;*/
+				background: url("images/BG.main.style3.primary.jpg") repeat fixed;
 				background-size: cover;
 				background-color: #000000; /* Fallback if image not loaded */
 			}
@@ -2310,8 +2310,10 @@ input, select, textarea {
 
 /* Three */
 #three {
+	/*
 	background: url("images/overlay.png"), url("../../images/two.jpg");
     height: calc(100vh - 80px);
+	*/
 }
 /* Style the header for the "Team" title */
 #three header {
@@ -2464,6 +2466,7 @@ body::before {
 	
 
 	
+
 
 
 
