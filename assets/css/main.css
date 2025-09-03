@@ -2007,7 +2007,7 @@ input, select, textarea {
 				width: 35%;
 				margin: 0;
 			}
-
+/*Left right box*/
 			.main.style2.left {
 				-moz-justify-content: -moz-flex-start;
 				-webkit-justify-content: -webkit-flex-start;
@@ -2035,6 +2035,27 @@ input, select, textarea {
 				-ms-transform: translateX(100%);
 				transform: translateX(100%);
 			}
+
+/*panels container*/
+.panels-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.panel {
+    background-color: #000000;
+    color: #e5e6e7;
+    padding: 2em;
+    flex: 1;
+    margin: 1em;
+    max-width: 45%;
+}
+
+
+
 
 		.main.style3 {
 			text-align: center;
@@ -2432,6 +2453,7 @@ body::before {
 	
 
 	
+
 
 
 
