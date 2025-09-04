@@ -2314,8 +2314,10 @@ input, select, textarea {
 	background: url("images/overlay.png"), url("../../images/two.jpg");
     height: calc(100vh - 80px);
 	*/
-	display: flex; /* or display: grid; */
-  gap: 20px; 
+	display: flex;
+  flex-direction: row;
+  gap: 20px; /* Adjust this value to your desired spacing */
+  justify-content: center; /* This will center the boxes horizontally */
 }
 
 
@@ -2441,6 +2443,7 @@ body::before {
 
 	
 	
+
 
 
 
