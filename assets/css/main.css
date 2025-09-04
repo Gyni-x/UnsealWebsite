@@ -2258,6 +2258,7 @@ input, select, textarea {
 	/* The background property is removed here */
 	position: relative; /* This is crucial for positioning the video */
 	overflow: hidden; /* This hides any video content that extends beyond the section's borders */
+	height: 100vh;
 }
 
 #intro .content {
@@ -2458,6 +2459,7 @@ body::before {
 
 	
 	
+
 
 
 
