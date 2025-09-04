@@ -2252,43 +2252,40 @@ input, select, textarea {
 
 		}
 
-/* Intro */
-#intro {
-    position: relative;
-    overflow: hidden;
-    height: 100vh;
+/* This rule applies to both video elements */
+#bg-video-desktop,
+#bg-video-mobile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -100;
+  object-fit: cover;
 }
 
-#intro .content {
-    position: relative;
-    z-index: 10;
+/* By default, the desktop video is visible */
+#bg-video-desktop {
+  display: block;
 }
 
-/* This targets your single video element */
-#bg-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
+/* By default, the mobile video is hidden */
+#bg-video-mobile {
+  display: none;
 }
 
-/* Remove the media query that targets non-existent IDs */
-/* @media (max-width: 768px) {
-    #bg-video-desktop {
-        display: none;
-    }
-    #bg-video-mobile {
-        display: block;
-        object-position: center top;
-    }
-} */
-
+/* Use a media query to show the mobile video and hide the desktop one */
+@media screen and (max-width: 768px) {
+  #bg-video-desktop {
+    display: none;
+  }
+  #bg-video-mobile {
+    display: block;
+  }
+}
 /* One */
 
 	#one {
@@ -2453,6 +2450,7 @@ body::before {
 
 	
 	
+
 
 
 
