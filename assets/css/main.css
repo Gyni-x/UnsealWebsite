@@ -954,6 +954,11 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+ul.icons a.fas.fa-globe {
+  /* Hides any unwanted text underlines */
+  text-decoration: none !important; 
+}
+
 /* Image */
 
 	.image {
@@ -2449,6 +2454,7 @@ body::before {
 
 	
 	
+
 
 
 
