@@ -2343,6 +2343,7 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			position: relative;
+			background: #000000;
 		}
 
 		#contact.inactive .box {
@@ -2447,6 +2448,7 @@ body::before {
 
 	
 	
+
 
 
 
