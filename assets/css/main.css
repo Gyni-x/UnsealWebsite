@@ -2324,8 +2324,13 @@ input, select, textarea {
     flex-direction: column;
     gap: 20px;
     justify-content: center;
-	padding: 1vw 5vw;
+	padding: 1vw 20vw;
 	text-align: left;
+}
+@media screen and (max-width: 768px) {
+    #three .box-container {
+        padding: 1vw 5vw; /* Smaller padding for mobile devices */
+    }
 }
 
 
@@ -2452,6 +2457,7 @@ body::before {
 
 	
 	
+
 
 
 
