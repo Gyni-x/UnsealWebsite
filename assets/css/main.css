@@ -2317,6 +2317,7 @@ input, select, textarea {
 }
 /* Style the header for the "Team" title */
 #three header {
+	display: flex;
     text-align: center;
     position: relative;
     top: -10em; /* Adjust this value to move the header up or down */
@@ -2340,7 +2341,7 @@ input, select, textarea {
     position: relative;
     width: 100%; /* Adjust width of each panel */
     flex: 0 0 auto;
-    max-width: 100%; /* Prevent panels from getting too big */
+    max-width: 80%; /* Prevent panels from getting too big */
     margin: 1em; /* Add some space between them */
     height: auto; /* Allow panels to fit their content */
 }
@@ -2466,6 +2467,7 @@ body::before {
 	
 
 	
+
 
 
 
