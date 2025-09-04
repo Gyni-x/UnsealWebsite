@@ -2315,6 +2315,9 @@ input, select, textarea {
     height: calc(100vh - 80px);
 	*/
 }
+#three .box {
+	padding-bottom: 2em;
+}
 
 
 /* Contact */
@@ -2438,6 +2441,7 @@ body::before {
 
 	
 	
+
 
 
 
