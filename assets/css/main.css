@@ -2329,7 +2329,7 @@ input, select, textarea {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 80em; /* Adjust this to control the total width of the panels */
+    /*max-width: 80em; /* Adjust this to control the total width of the panels */
     position: relative;
     margin-top: -5em; /* Adjust this value to move panels up or down */
 }
@@ -2340,7 +2340,7 @@ input, select, textarea {
     position: relative;
     width: 100%; /* Adjust width of each panel */
     flex: 0 0 auto;
-    max-width: 45%; /* Prevent panels from getting too big */
+    max-width: 80%; /* Prevent panels from getting too big */
     margin: 1em; /* Add some space between them */
     height: auto; /* Allow panels to fit their content */
 }
@@ -2466,6 +2466,7 @@ body::before {
 	
 
 	
+
 
 
 
