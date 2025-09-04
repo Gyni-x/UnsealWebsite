@@ -2310,18 +2310,17 @@ input, select, textarea {
 
 /* Three */
 #three {
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 20px !important;
-  justify-content: center !important;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
 }
 
-#three .box-container {
-    /*display: flex;*/
-    gap: 20px; /* Adjust this value to your desired spacing */
+/*#three .box-container {
+    gap: 20px; 
     justify-content: center;
 }
-
+*/
 
 
 /* Contact */
@@ -2445,6 +2444,7 @@ body::before {
 
 	
 	
+
 
 
 
