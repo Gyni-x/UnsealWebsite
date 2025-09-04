@@ -2257,7 +2257,7 @@ input, select, textarea {
 #intro {
     position: relative;
     overflow: hidden;
-    height: 100vh; /* This is the key to making the video fill the viewport */
+   /*  height: 100vh; /* This is the key to making the video fill the viewport */
 }
 
 #intro .content {
@@ -2444,6 +2444,7 @@ body::before {
 
 	
 	
+
 
 
 
