@@ -2310,14 +2310,16 @@ input, select, textarea {
 
 /* Three */
 #three {
-	/*
-	background: url("images/overlay.png"), url("../../images/two.jpg");
-    height: calc(100vh - 80px);
-	*/
-	display: flex;
-  flex-direction: row;
-  gap: 20px; /* Adjust this value to your desired spacing */
-  justify-content: center; /* This will center the boxes horizontally */
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 20px !important;
+  justify-content: center !important;
+}
+
+#three .box-container {
+    display: flex;
+    gap: 20px; /* Adjust this value to your desired spacing */
+    justify-content: center;
 }
 
 
@@ -2443,6 +2445,7 @@ body::before {
 
 	
 	
+
 
 
 
