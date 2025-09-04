@@ -2318,8 +2318,9 @@ input, select, textarea {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: center;
+    /*justify-content: center;*/
 	padding: 1.5em 5em 1.5em 5em;
+	text-align: left;
 }
 
 
@@ -2445,6 +2446,7 @@ body::before {
 
 	
 	
+
 
 
 
