@@ -1179,7 +1179,6 @@ input, select, textarea {
 			line-height: 2em;
 			text-align: center;
 			border: 0;
-			display: none;/* remove underline*/
 		}
 
 
@@ -2450,6 +2449,7 @@ body::before {
 
 	
 	
+
 
 
 
