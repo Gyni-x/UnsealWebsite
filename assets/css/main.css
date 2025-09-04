@@ -2312,6 +2312,7 @@ input, select, textarea {
 #three {
   display: flex;
   flex-direction: column;
+	padding: 0 5rem;
 }
 
 #three .box-container {
@@ -2446,6 +2447,7 @@ body::before {
 
 	
 	
+
 
 
 
