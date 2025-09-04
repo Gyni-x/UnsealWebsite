@@ -2312,8 +2312,8 @@ input, select, textarea {
 #three {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  justify-content: center;
+  /*gap: 20px;
+  justify-content: center;*/
 }
 
 #three .box-container {
@@ -2321,7 +2321,7 @@ input, select, textarea {
     flex-direction: column;
     gap: 20px;
     justify-content: center;
-    align-items: center; /* Add this to center the boxes horizontally */
+   /* align-items: center;  Add this to center the boxes horizontally */
 }
 
 
@@ -2447,6 +2447,7 @@ body::before {
 
 	
 	
+
 
 
 
