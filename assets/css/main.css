@@ -2315,35 +2315,37 @@ input, select, textarea {
     height: calc(100vh - 80px);
 	*/
 }
-/* Style the header for the "Team" title */
+/* 1. Ensure the "Team" title is visible and centered */
 #three header {
-	display: flex;
-    text-align: center;
     position: relative;
-    top: -10em; /* Adjust this value to move the header up or down */
+    top: -200px; /* Adjust this value to move the title up or down */
+    text-align: center;
+    width: 100%;
+    color: #e5e6e7; /* Ensure the text is visible */
     z-index: 10;
 }
 
-/* Force the two panels to display side-by-side */
+/* 2. Style the container for the two panels */
 .panels-container {
     display: flex;
+    flex-direction: column; /* This will stack the panels vertically */
     justify-content: center;
     align-items: center;
     width: 100%;
-    /*max-width: 80em; /* Adjust this to control the total width of the panels */
     position: relative;
-    margin-top: -5em; /* Adjust this value to move panels up or down */
+    top: 50px; /* Adjust this to move the entire panel group up or down */
 }
 
-/* Ensure panels don't take up the full screen */
-.panels-container .main.style2.left,
-.panels-container .main.style2.right {
-    position: relative;
-    width: 100%; /* Adjust width of each panel */
-    flex: 0 0 auto;
-    max-width: 80%; /* Prevent panels from getting too big */
-    margin: 1em; /* Add some space between them */
-    height: auto; /* Allow panels to fit their content */
+/* 3. Style the individual panels */
+.panels-container .box {
+    width: 90%; /* Adjust width to fit content */
+    margin: 1em 0; /* Add space between panels */
+}
+
+/* Override the template's full-screen behavior for panels */
+.panels-container .box.style2 {
+    max-width: 450px; /* Control the width of each panel */
+    padding: 3.5em 2.5em; /* Keep original padding */
 }
 
 /* Contact */
@@ -2467,6 +2469,7 @@ body::before {
 	
 
 	
+
 
 
 
