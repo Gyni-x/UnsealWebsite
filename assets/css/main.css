@@ -2338,7 +2338,7 @@ input, select, textarea {
 .panels-container .main.style2.left,
 .panels-container .main.style2.right {
     position: relative;
-    width: 45%; /* Adjust width of each panel */
+    width: 100%; /* Adjust width of each panel */
     flex: 0 0 auto;
     max-width: 45%; /* Prevent panels from getting too big */
     margin: 1em; /* Add some space between them */
@@ -2466,6 +2466,7 @@ body::before {
 	
 
 	
+
 
 
 
