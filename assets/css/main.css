@@ -2317,7 +2317,7 @@ input, select, textarea {
 }
 
 #three .box-container {
-    display: flex;
+    /*display: flex;*/
     gap: 20px; /* Adjust this value to your desired spacing */
     justify-content: center;
 }
@@ -2445,6 +2445,7 @@ body::before {
 
 	
 	
+
 
 
 
