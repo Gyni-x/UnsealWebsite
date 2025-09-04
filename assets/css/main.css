@@ -2290,7 +2290,7 @@ input, select, textarea {
     }
     #bg-video-mobile {
         display: block;
-        object-position: center top; /* New rule to control video cropping */
+       /* object-position: center top; /* New rule to control video cropping */
     }
 }
 
@@ -2459,6 +2459,7 @@ body::before {
 
 	
 	
+
 
 
 
