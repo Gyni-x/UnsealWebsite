@@ -2309,12 +2309,12 @@ input, select, textarea {
 	}
 
 /* Three */
-/*#three {
+#three {
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
-}*/
+}
 
 #three .box-container {
 	display: flex;
@@ -2446,6 +2446,7 @@ body::before {
 
 	
 	
+
 
 
 
