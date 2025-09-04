@@ -631,6 +631,7 @@ input, select, textarea {
 		}
 
 		.box.style2 {
+			border-radius: 10px; /* Adjust this value to make the corners more or less rounded */
 			padding: 3.5em 2.5em 3.5em 2.5em;
 		}
 
@@ -2450,6 +2451,7 @@ body::before {
 
 	
 	
+
 
 
 
