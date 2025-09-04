@@ -2437,27 +2437,8 @@ body::before {
     left: 50%;
 
 	
-/*panels container*/
-	.panels-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap; /* Allows panels to wrap on smaller screens */
-    width: 100%;
-}
-
-.panels-container p {
-    flex: 1 1 45%; /* Controls the size of each panel's content */
-    padding: 1em;
-}
-
-#three .content.box.style2 header {
-    /* To ensure the header stays at the top of the content box */
-    margin-bottom: 2em;
-    text-align: center;
-}
-
 	
+
 
 
 
