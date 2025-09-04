@@ -2317,10 +2317,9 @@ input, select, textarea {
 #three .box-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    /*gap: 20px;*/
     justify-content: center;
-	padding-left: 5rem; 
-    padding-right: 5rem;
+	padding: 1.5em 5em 1.5em 5em;
 }
 
 
@@ -2446,6 +2445,7 @@ body::before {
 
 	
 	
+
 
 
 
