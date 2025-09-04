@@ -29,17 +29,10 @@
 
 		<!-- Intro -->
 		<section id="intro" class="main style1 dark fullscreen">
-    <video autoplay muted loop playsinline id="bg-video-desktop">
-        <source src="videos/Unseal_WebIntro_Desktop.mp4" type="video/mp4">
-    </video>
-
-    <video autoplay muted loop playsinline id="bg-video-mobile">
-        <source src="videos/Unseal_WebIntro_Mobile.mp4" type="video/mp4">
-    </video>
-    
-    <div class="content">
-        </div>
-</section>
+			<video autoplay muted loop playsinline id="bg-video">
+				<source src="videos/Unseal_WebIntro_Desktop.mp4" type="video/mp4" media="(min-width: 769px)">
+				<source src="videos/Unseal_WebIntro_Mobile.mp4" type="video/mp4" media="(max-width: 768px)">
+			</video>
 			
 			
 			<div class="content">
@@ -243,6 +236,7 @@
 	</body>
 
 </html>
+
 
 
 
