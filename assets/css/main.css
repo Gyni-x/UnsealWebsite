@@ -2338,16 +2338,16 @@ input, select, textarea {
 
 /*Trailer*/
 
-#trailer.main.style3 {
-  /*padding-top: 0 !important;*/
+/*#trailer.main.style3 {
+  padding-top: 0 !important;
   min-height: 80vh;
-}
+}*/
 
-#trailer iframe {
+/*#trailer iframe {
   width: auto;
   height: auto; 
   aspect-ratio: 16 / 9; 
-}
+}*/
 
 /*@media screen and (max-width: 736px) {
  
@@ -2491,6 +2491,7 @@ body::before {
 
 	
 	
+
 
 
 
