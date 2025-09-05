@@ -2338,9 +2338,14 @@ input, select, textarea {
 
 /*Trailer*/
 
+#trailer iframe {
+  width: 100%;
+  height: auto; 
+  aspect-ratio: 16 / 9; 
+}
+
 @media screen and (max-width: 736px) {
-  /* This selector targets the container that holds your video and button */
-  /* If your container has a different class or ID, change this selector */
+ 
   #trailer > .content {
     display: flex;
     flex-direction: column;
@@ -2349,7 +2354,7 @@ input, select, textarea {
     text-align: center;
   }
 
-  /* This will center the YouTube video */
+  /* Center the YouTube video */
   #trailer iframe {
     margin: 0 auto;
     display: block;
@@ -2481,6 +2486,7 @@ body::before {
 
 	
 	
+
 
 
 
