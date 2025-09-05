@@ -2336,60 +2336,39 @@ input, select, textarea {
     }
 }
 
+/*Trailer*/
 
-/* Trailer Section Styles */
-#trailer.main.style3.fullscreen {
+#trailer.main.style3 {
   padding-top: 0 !important;
   height: auto !important;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-/* Removes padding from the header */
-#trailer header {
-  padding: 0;
-  margin: 0;
-}
-
-/* Adjusts the content container */
-#trailer > .content {
-  text-align: center;
-  width: 100%;
-  padding-top: 2em; /* Add top padding to create space from the top of the browser */
-}
-
-/* Sets all child elements to have no margin */
-#trailer .content h2,
-#trailer .content p,
-#trailer .content iframe,
-#trailer .content .button {
-  margin: 0;
-}
-
-/* Video settings */
 #trailer iframe {
-  width: 80%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  width: 100%;
+  height: auto; 
+  aspect-ratio: 16 / 9; 
 }
 
-/* Mobile-specific adjustments */
 @media screen and (max-width: 736px) {
-  #trailer iframe {
-    width: 90%;
+ 
+  #trailer > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
-  #trailer > .content {
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+  /* Center the YouTube video */
+  #trailer iframe {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
   }
 }
+
+
 
 /* Contact */
 
@@ -2513,12 +2492,6 @@ body::before {
 
 	
 	
-
-
-
-
-
-
 
 
 
