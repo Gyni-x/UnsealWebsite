@@ -2337,44 +2337,56 @@ input, select, textarea {
 }
 
 
-/* Trailer */
+/* Trailer Section Styles */
 #trailer.main.style3 {
   padding: 0 !important;
   height: auto !important;
   min-height: 100vh;
 }
 
-#trailer h2,
-#trailer p,
-#trailer iframe {
-  margin: 0;
+/* Fixes the gap above the "Trailer" header */
+#trailer header {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
+/* Sets up the content to fit and center properly */
 #trailer > .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2em; /* Add some overall padding for spacing */
 }
 
-/* This is the new change: Make the video smaller */
+/* Removes default margins on all elements inside the content */
+#trailer .content h2,
+#trailer .content p,
+#trailer .content iframe,
+#trailer .content .button {
+  margin: 0;
+}
+
+/* Adjusts video size and adds some space around it */
 #trailer iframe {
-  width: 80%; /* Sets the video width to 80% of its container */
+  width: 80%;
   height: auto;
   aspect-ratio: 16 / 9;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
+/* Adjustments for smaller screens */
 @media screen and (max-width: 736px) {
   #trailer > .content {
-    padding: 2em;
+    padding: 1em;
   }
 
-  /* This will apply a different width on mobile for better fit */
   #trailer iframe {
-    width: 90%; 
+    width: 90%;
   }
 }
-
 /* Contact */
 
 	#contact {
@@ -2497,6 +2509,7 @@ body::before {
 
 	
 	
+
 
 
 
