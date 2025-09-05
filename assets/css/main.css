@@ -2336,38 +2336,38 @@ input, select, textarea {
     }
 }
 
-/*Trailer*/
 
+/* Trailer */
 #trailer.main.style3 {
-  padding-top: 0 !important;
+  padding: 0 !important;
   height: auto !important;
   min-height: 100vh;
 }
 
+#trailer h2,
+#trailer p,
+#trailer iframe {
+  margin: 0;
+}
+
+#trailer > .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #trailer iframe {
   width: 100%;
-  height: auto; 
-  aspect-ratio: 16 / 9; 
+  height: auto;
+  aspect-ratio: 16 / 9;
 }
 
 @media screen and (max-width: 736px) {
- 
   #trailer > .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  /* Center the YouTube video */
-  #trailer iframe {
-    margin: 0 auto;
-    display: block;
-    max-width: 100%;
+    padding: 2em; /* Add some padding on mobile to prevent content from touching the edges */
   }
 }
-
 
 
 /* Contact */
@@ -2492,6 +2492,7 @@ body::before {
 
 	
 	
+
 
 
 
