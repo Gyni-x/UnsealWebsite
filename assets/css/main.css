@@ -2461,12 +2461,18 @@ body::before {
 /* Youtube Video Container */
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    padding-top: 30px;
+    padding-bottom: 56.25%; /* Maintains 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
-    margin: 0 auto;
-    max-width: 100%;
+    margin: 0 -20vw; /* This cancels out the padding of the parent container */
+    max-width: 100vw;
+}
+
+/* On mobile, use less horizontal margin to prevent it from going off the screen */
+@media screen and (max-width: 768px) {
+    .video-container {
+        margin: 0 -5vw;
+    }
 }
 
 .video-container iframe,
@@ -2480,6 +2486,7 @@ body::before {
 }
 	
 	
+
 
 
 
