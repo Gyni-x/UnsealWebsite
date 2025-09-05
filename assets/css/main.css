@@ -2345,7 +2345,7 @@ input, select, textarea {
 }
 
 #trailer iframe {
-  width: 100%;
+  width: auto;
   height: auto; 
   aspect-ratio: 16 / 9; 
 }
@@ -2492,6 +2492,7 @@ body::before {
 
 	
 	
+
 
 
 
