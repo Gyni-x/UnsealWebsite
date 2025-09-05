@@ -2357,18 +2357,23 @@ input, select, textarea {
   align-items: center;
 }
 
+/* This is the new change: Make the video smaller */
 #trailer iframe {
-  width: 100%;
+  width: 80%; /* Sets the video width to 80% of its container */
   height: auto;
   aspect-ratio: 16 / 9;
 }
 
 @media screen and (max-width: 736px) {
   #trailer > .content {
-    padding: 2em; /* Add some padding on mobile to prevent content from touching the edges */
+    padding: 2em;
+  }
+
+  /* This will apply a different width on mobile for better fit */
+  #trailer iframe {
+    width: 90%; 
   }
 }
-
 
 /* Contact */
 
@@ -2492,6 +2497,7 @@ body::before {
 
 	
 	
+
 
 
 
