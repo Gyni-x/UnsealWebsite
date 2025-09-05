@@ -2458,27 +2458,8 @@ body::before {
     bottom: 0;
     left: 50%;
 	
-/* Youtube Video Container */
-#trailer .video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 56.25%; /* Maintains 16:9 aspect ratio */
-    overflow: hidden;
-    z-index: -1; /* Puts the video behind the content */
-}
-
-/* Make sure the iframe fills the new container */
-#trailer .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 	
+
 
 
 
