@@ -2338,29 +2338,30 @@ input, select, textarea {
 
 
 /* Trailer Section Styles */
-#trailer.main.style3 {
-  padding: 0 !important;
+#trailer.main.style3.fullscreen {
+  padding-top: 0 !important;
   height: auto !important;
   min-height: 100vh;
-}
-
-/* Fixes the gap above the "Trailer" header */
-#trailer header {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-/* Sets up the content to fit and center properly */
-#trailer > .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  text-align: center;
-  padding: 2em; /* Add some overall padding for spacing */
+  align-items: center;
 }
 
-/* Removes default margins on all elements inside the content */
+/* Removes padding from the header */
+#trailer header {
+  padding: 0;
+  margin: 0;
+}
+
+/* Adjusts the content container */
+#trailer > .content {
+  text-align: center;
+  width: 100%;
+  padding-top: 2em; /* Add top padding to create space from the top of the browser */
+}
+
+/* Sets all child elements to have no margin */
 #trailer .content h2,
 #trailer .content p,
 #trailer .content iframe,
@@ -2368,7 +2369,7 @@ input, select, textarea {
   margin: 0;
 }
 
-/* Adjusts video size and adds some space around it */
+/* Video settings */
 #trailer iframe {
   width: 80%;
   height: auto;
@@ -2377,16 +2378,19 @@ input, select, textarea {
   margin-bottom: 1em;
 }
 
-/* Adjustments for smaller screens */
+/* Mobile-specific adjustments */
 @media screen and (max-width: 736px) {
-  #trailer > .content {
-    padding: 1em;
-  }
-
   #trailer iframe {
     width: 90%;
   }
+
+  #trailer > .content {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
+
 /* Contact */
 
 	#contact {
@@ -2509,6 +2513,7 @@ body::before {
 
 	
 	
+
 
 
 
