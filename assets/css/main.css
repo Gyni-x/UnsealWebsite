@@ -2289,10 +2289,12 @@ input, select, textarea {
         display: none;
     }
     #bg-mobile-image {
-        display: block;
+        display: block;/*change to block if using video*/
+    }
+    #bg-video-mobile {
+        display: none;/*change to none if using image*/
     }
 }
-
 
 /* One */
 
@@ -2458,6 +2460,7 @@ body::before {
 
 	
 	
+
 
 
 
