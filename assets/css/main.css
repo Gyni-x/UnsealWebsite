@@ -2339,7 +2339,9 @@ input, select, textarea {
 /*Trailer*/
 
 #trailer.main.style3 {
-  padding-top: 0 !important;
+  padding-top: 1 !important;
+  height: auto !important;
+  min-height: 100vh;
 }
 
 #trailer iframe {
@@ -2490,6 +2492,7 @@ body::before {
 
 	
 	
+
 
 
 
