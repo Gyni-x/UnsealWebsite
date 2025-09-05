@@ -2339,7 +2339,7 @@ input, select, textarea {
 
 /* Trailer Section Styles */
 #trailer.main.style3 {
-  /*padding: 0 !important;*/
+  padding: 0 !important;
   height: auto !important;
   min-height: 100vh;
 }
@@ -2352,8 +2352,8 @@ input, select, textarea {
 
 /* Sets up the content to fit and center properly */
 #trailer > .content {
-  /*display: flex;
-  flex-direction: column;*/
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -2509,6 +2509,7 @@ body::before {
 
 	
 	
+
 
 
 
