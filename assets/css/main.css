@@ -2338,24 +2338,17 @@ input, select, textarea {
 
 /*Trailer*/
 
- #trailer > .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
 
 /*#trailer.main.style3 {
   padding-top: 0 !important;
   min-height: 80vh;
 }*/
 
-/*#trailer iframe {
+#trailer iframe {
   width: auto;
   height: auto; 
   aspect-ratio: 16 / 9; 
-}*/
+}
 
 /*@media screen and (max-width: 736px) {
  
@@ -2499,6 +2492,7 @@ body::before {
 
 	
 	
+
 
 
 
