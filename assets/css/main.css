@@ -2336,6 +2336,27 @@ input, select, textarea {
     }
 }
 
+/*Trailer*/
+
+@media screen and (max-width: 736px) {
+  /* This selector targets the container that holds your video and button */
+  /* If your container has a different class or ID, change this selector */
+  #trailer > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* This will center the YouTube video */
+  #trailer iframe {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+  }
+}
+
 
 
 /* Contact */
@@ -2460,6 +2481,7 @@ body::before {
 
 	
 	
+
 
 
 
