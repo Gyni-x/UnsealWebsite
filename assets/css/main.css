@@ -2349,7 +2349,7 @@ input, select, textarea {
   aspect-ratio: 16 / 9; 
 }
 
-@media screen and (max-width: 736px) {
+/*@media screen and (max-width: 736px) {
  
   #trailer > .content {
     display: flex;
@@ -2359,13 +2359,13 @@ input, select, textarea {
     text-align: center;
   }
 
-  /* Center the YouTube video */
+
   #trailer iframe {
     margin: 0 auto;
     display: block;
     max-width: 100%;
   }
-}
+}*/
 
 
 
@@ -2491,6 +2491,7 @@ body::before {
 
 	
 	
+
 
 
 
