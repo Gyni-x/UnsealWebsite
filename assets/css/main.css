@@ -2339,7 +2339,7 @@ input, select, textarea {
 /*Trailer*/
 
 #trailer.main.style3 {
-  padding-top: 1 !important;
+  padding-top: 0 !important;
   height: auto !important;
   min-height: 100vh;
 }
@@ -2492,6 +2492,7 @@ body::before {
 
 	
 	
+
 
 
 
