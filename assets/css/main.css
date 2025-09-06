@@ -2477,7 +2477,7 @@ body::before {
 
 .video-container {
     position: relative;
-    width: 100%;
+    width: 80%;
     height: 0;
     padding-bottom: 56.25%; /* Maintains a 16:9 aspect ratio */
     overflow: hidden;
@@ -2491,6 +2491,7 @@ body::before {
     width: 100%;
     height: 100%;
 }
+
 
 
 
