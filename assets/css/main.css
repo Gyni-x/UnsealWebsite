@@ -2482,6 +2482,10 @@ body::before {
     height: 100%;
 }
 
+#trailer .main > .content {
+	width: auto; 
+}
+
 
 
 
