@@ -2458,30 +2458,20 @@ body::before {
 }
 
 /* --- Youtube video-container --- */
-#trailer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: calc(100vh - 3em);
+#trailer.main.style3 {
+    padding: 0;
 }
 
-#trailer .content {
-    /* Use flex to center everything inside the content div. */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 90vw !important;
-    max-width: 1200px !important;
+#trailer.main.style3 > .content {
+    max-width: 100%;
 }
 
 .video-container {
     position: relative;
-    width: 80%;
     height: 0;
     padding-bottom: 56.25%; /* Maintains a 16:9 aspect ratio */
     overflow: hidden;
-    margin: 0 auto 2em;
+    margin: 0 auto;
 }
 
 .video-container iframe {
@@ -2491,6 +2481,7 @@ body::before {
     width: 100%;
     height: 100%;
 }
+
 
 
 
