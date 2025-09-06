@@ -2340,8 +2340,8 @@ input, select, textarea {
 
 
 #trailer.main.style3 {
-	padding-top: 0 !important;
-    min-height: 100vh;
+	/*padding-top: 0 !important;
+    min-height: 100vh;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2352,7 +2352,7 @@ input, select, textarea {
 
 #trailer iframe {
     width: auto;
-   /* max-width: 72em;*/
+    max-width: 60em;
     height: auto;
     aspect-ratio: 16 / 9;
 }
@@ -2495,6 +2495,7 @@ body::before {
 
 	
 	
+
 
 
 
