@@ -2467,7 +2467,7 @@ body::before {
     position: relative;
     width: 100%;
     /* 16:9 aspect ratio */
-    padding-bottom: 56.25%;
+    /*padding-bottom: 56.25%;*/
     height: 0;
     overflow: hidden;
     margin: 0 auto 2em;
@@ -2483,6 +2483,7 @@ body::before {
 
 	
 	
+
 
 
 
