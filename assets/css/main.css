@@ -2460,7 +2460,21 @@ body::before {
 /* --- Youtube video-container --- */
 
 #trailer {
-    height: 100vh;
+    height: calc(100vh - 3em);
+}
+
+#trailer .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw !important;
+    max-width: 1200px !important;
+    height: 100%;
+}
+
+#trailer.main.style1 ul.actions {
+    text-align: initial;
+    margin-top: auto;
 }
 
 .video-container {
@@ -2479,6 +2493,7 @@ body::before {
     width: 100%;
     height: 100%;
 }
+
 
 
 
