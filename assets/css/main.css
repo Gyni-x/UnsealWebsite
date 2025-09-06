@@ -2459,7 +2459,7 @@ body::before {
     bottom: 0;
     left: 50%;
 
-/*Youtube video-container
+/* --- Youtube video-container --- */
 
 #trailer .content {
     width: 90vw !important;
@@ -2468,7 +2468,7 @@ body::before {
 
 .video-container {
     position: relative;
-   
+    width: 100%;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
@@ -2481,13 +2481,6 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-}
-*/
-
-.video-container iframe {
-    position: absolute;
-    width: 1280px !important;
-    height: 720px !important;
 }
 
 
