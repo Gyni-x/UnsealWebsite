@@ -2463,6 +2463,7 @@ body::before {
 #trailer .content {
 	width: 80em !important; /* Forces the content box to be wide */
 	max-width: none !important;
+	margin: none;
 }
 
 .video-container {
@@ -2481,6 +2482,7 @@ body::before {
     width: 100%;
     height: 100%;
 }
+
 
 
 
