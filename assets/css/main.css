@@ -2354,7 +2354,7 @@ input, select, textarea {
     width: 90%; /* Adjust to be a percentage of its container */
     max-width: 72em;
     height: auto;
-    aspect-ratio: 16 / 9;
+    /*aspect-ratio: 16 / 9;*/
 }
 
 
@@ -2480,6 +2480,7 @@ body::before {
 
 	
 	
+
 
 
 
