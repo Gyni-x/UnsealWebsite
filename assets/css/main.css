@@ -2483,8 +2483,9 @@ body::before {
 }
 
 #trailer .content header {
-    padding-top: 1em; /* You can adjust this value as needed */
+   padding: 1em 0 1em 0;
 }
+
 
 
 
