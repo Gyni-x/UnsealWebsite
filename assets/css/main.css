@@ -2463,7 +2463,7 @@ body::before {
 }
 
 #trailer.main.style3 > .content {
-    max-width: 100%;
+    width: auto;
 }
 
 .video-container {
@@ -2482,9 +2482,7 @@ body::before {
     height: 100%;
 }
 
-#trailer .main > .content {
-	width: auto; 
-}
+
 
 
 
