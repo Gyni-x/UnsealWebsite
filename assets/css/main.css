@@ -2339,40 +2339,6 @@ input, select, textarea {
 /*Trailer
 
 
-#trailer.main.style3 {
-	padding-top: 0 !important;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-}
-
-#trailer iframe {
-    width: auto;
-    max-width: 60em;
-    height: auto;
-    aspect-ratio: 16 / 9;
-}*/
-
-/*.section-header {
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    z-index: 200;
-}*/
-
-/* Position the Next button */
-#trailer .button.down {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-
-
 /* Contact */
 
 	#contact {
@@ -2513,6 +2479,7 @@ body::before {
 
 	
 	
+
 
 
 
