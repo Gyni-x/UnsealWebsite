@@ -2351,11 +2351,26 @@ input, select, textarea {
 }
 
 #trailer iframe {
-    width: 90%; /* Adjust to be a percentage of its container */
-    max-width: 72em;
+    width: auto;
+   /* max-width: 72em;*/
     height: auto;
-    /*aspect-ratio: 16 / 9;*/
+    aspect-ratio: 16 / 9;
 }
+
+.section-header {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 200;
+}
+
+/* Position the Next button */
+#trailer .button.down {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
 
 
 /* Contact */
@@ -2480,6 +2495,7 @@ body::before {
 
 	
 	
+
 
 
 
