@@ -2458,29 +2458,27 @@ body::before {
 }
 
 /* --- Youtube video-container --- */
+
 #trailer {
+    position: relative;
     height: calc(100vh - 3em);
 }
 
 #trailer .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* This is the fix. It pushes the items apart */
+    justify-content: flex-end;
+    align-items: center;
     width: 90vw !important;
     max-width: 1200px !important;
     height: 100%;
-}
-
-#trailer.main.style1 ul.actions {
-    text-align: initial;
-    margin-top: 0; /* Not needed anymore, the new rule handles it */
 }
 
 .video-container {
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: 56.25%; /* For a 16:9 aspect ratio */
+    padding-bottom: 56.25%;
     overflow: hidden;
     margin: 0 auto 2em;
 }
@@ -2491,6 +2489,13 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+#trailer .button.anchored {
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
