@@ -2459,25 +2459,12 @@ body::before {
 
 /* --- Youtube video-container --- */
 
-#trailer {
-    position: relative;
-    height: calc(100vh - 3em); /* Ensures section fits below the header */
-}
-
-#trailer .content {
-    text-align: center; /* Centers block-level children like the video container */
-    margin: 0 auto;
-    width: 45em;
-    max-width: 100%;
-}
-
 .video-container {
     position: relative;
-    width: 100%;
     height: 0;
-    padding-bottom: 56.25%; /* Maintains 16:9 aspect ratio */
+    padding-bottom: 56.25%; /* Maintains a 16:9 aspect ratio */
     overflow: hidden;
-    margin: 0 auto 2em auto;
+    margin: 0 auto;
 }
 
 .video-container iframe {
@@ -2486,19 +2473,6 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-#trailer .button.anchored {
-    position: absolute;
-    bottom: 2em;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-@media screen and (max-width: 736px) {
-    #trailer .content {
-        max-width: calc(100% - 1.5em);
-    }
 }
 
 
