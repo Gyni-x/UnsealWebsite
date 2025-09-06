@@ -2460,8 +2460,8 @@ body::before {
     left: 50%;
 
 /*Youtube video-container*/
-#trailer .main > .content{
-	width: 80em !important; /* Forces the content box to be wide */
+/*#trailer .content{
+	width: 80em !important; 
 	max-width: none !important;
 	margin: none;
 }
@@ -2469,7 +2469,7 @@ body::before {
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* This line creates the video's height */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
     margin: 0 auto 2em;
@@ -2483,6 +2483,7 @@ body::before {
     height: 100%;
 }
 
+*/
 
 
 
