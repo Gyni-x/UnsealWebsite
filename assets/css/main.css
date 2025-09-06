@@ -2464,7 +2464,7 @@ body::before {
 }
 
 #trailer .content {
-    padding-top: 3em; /* This will add the space you need */
+    padding-top: 1em; /* This will add the space you need */
 }
 
 #trailer.main.style3 > .content {
@@ -2486,6 +2486,7 @@ body::before {
     width: 100%;
     height: 100%;
 }
+
 
 
 
