@@ -2461,7 +2461,8 @@ body::before {
 
 /*Youtube video-container*/
 #trailer .content {
-	 width: 80em;
+	width: 80em;
+	max-width: none;
 	
 .video-container {
     position: relative;
@@ -2483,6 +2484,7 @@ body::before {
 
 	
 	
+
 
 
 
