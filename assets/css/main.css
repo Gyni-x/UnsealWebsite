@@ -504,7 +504,7 @@ input, select, textarea {
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
-		color: #d4d4d4;
+		color: #555555;
 		letter-spacing: 0.025em;
 	}
 
@@ -2485,6 +2485,7 @@ body::before {
 #trailer .content header {
    padding: 0.25em 0 0.25em 0;
 }
+
 
 
 
