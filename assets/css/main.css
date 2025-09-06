@@ -866,7 +866,7 @@ input, select, textarea {
 		width: 100%;
 		padding: 0.65em 0.75em;
 		background: none;
-		border: solid 2px #e5e6e7;
+		border: solid 2px #696969;
 		color: inherit;
 		border-radius: 0.5em;
 		outline: none;
@@ -2485,6 +2485,7 @@ body::before {
 #trailer .content header {
    padding: 0.25em 0 0.25em 0;
 }
+
 
 
 
