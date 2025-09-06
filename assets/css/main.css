@@ -551,7 +551,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
-		color: #ffffff;
+		color: #0d5334;
 		letter-spacing: -0.0325em;
 	}
 
@@ -2062,7 +2062,7 @@ input, select, textarea {
 			}
 /* intro text color */
 		.main.dark {
-			color: #d4d4d4;
+			color: #555555;
 		}
 
 			.main.dark a {
@@ -2485,6 +2485,7 @@ body::before {
 #trailer .content header {
    padding: 0.25em 0 0.25em 0;
 }
+
 
 
 
