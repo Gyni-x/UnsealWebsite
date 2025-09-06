@@ -2484,6 +2484,13 @@ body::before {
 }
 */
 
+.video-container iframe {
+    position: absolute;
+    width: 1280px !important;
+    height: 720px !important;
+}
+
+
 
 
 
