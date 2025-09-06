@@ -2485,6 +2485,10 @@ body::before {
 */
 
 
+#trailer .main > .content {
+			max-width: calc(100% - 4em);
+			margin: 0 auto;
+		}
 
 
 
