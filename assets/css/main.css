@@ -2340,8 +2340,8 @@ input, select, textarea {
 
 
 #trailer.main.style3 {
-	/*padding-top: 0 !important;
-    min-height: 100vh;*/
+	padding-top: 0 !important;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2357,14 +2357,14 @@ input, select, textarea {
     aspect-ratio: 16 / 9;
 }
 
-.section-header {
+/*.section-header {
     position: absolute;
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     z-index: 200;
-}
+}*/
 
 /* Position the Next button */
 #trailer .button.down {
@@ -2495,6 +2495,7 @@ body::before {
 
 	
 	
+
 
 
 
