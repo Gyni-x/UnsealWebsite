@@ -2337,8 +2337,6 @@ input, select, textarea {
 }
 
 /*Trailer*/
-
-
 #trailer.main.style3 {
 	padding-top: 0 !important;
     min-height: 100vh;
@@ -2354,6 +2352,12 @@ input, select, textarea {
   width: auto;
   height: auto; 
   aspect-ratio: 16 / 9; 
+}
+
+#trailer .content {
+    max-width: 90% !important;
+    padding: 0 1.5em;
+    margin: 0 auto;
 }
 
 
@@ -2480,6 +2484,7 @@ body::before {
 	
 
 	
+
 
 
 
