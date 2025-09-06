@@ -2458,6 +2458,10 @@ body::before {
 }
 
 /* --- Youtube video-container --- */
+#trailer {
+    position: relative;
+    min-height: calc(100vh - 3em); 
+}
 
 .video-container {
     position: relative;
@@ -2477,6 +2481,7 @@ body::before {
 #trailer.main.style3 {
     padding: 0; /* Removing the padding */
 }
+
 
 
 
