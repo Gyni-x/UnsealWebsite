@@ -2336,7 +2336,7 @@ input, select, textarea {
     }
 }
 
-/*Trailer*/
+/*Trailer
 
 
 #trailer.main.style3 {
@@ -2355,7 +2355,7 @@ input, select, textarea {
     max-width: 60em;
     height: auto;
     aspect-ratio: 16 / 9;
-}
+}*/
 
 /*.section-header {
     position: absolute;
@@ -2495,6 +2495,7 @@ body::before {
 
 	
 	
+
 
 
 
