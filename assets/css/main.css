@@ -621,7 +621,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff8a;
+		background: #264c37e8;
 		color: #010101;
 		padding: 2em;
 	}
@@ -2485,6 +2485,7 @@ body::before {
 #trailer .content header {
    padding: 0.25em 0 0.25em 0;
 }
+
 
 
 
