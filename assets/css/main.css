@@ -2482,15 +2482,6 @@ body::before {
     height: 100%;
 }
 
-#trailer .header {
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    z-index: 200;
-}
-
 
 
 
