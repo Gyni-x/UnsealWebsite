@@ -2336,54 +2336,27 @@ input, select, textarea {
     }
 }
 
-/* Trailer */
+/*Trailer*/
+
+
 #trailer.main.style3 {
-    position: relative;
-    padding-top: 0 !important;
+	padding-top: 0 !important;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Aligns content to the top */
+    justify-content: center;
     text-align: center;
-    overflow: hidden; /* Prevents scrollbars on the section itself */
+
 }
 
-/* Make the content container responsive */
-.content {
-    max-width: 90% !important;
-    padding: 0 1.5em;
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-/* Make the iframe responsive */
 #trailer iframe {
-    width: auto;
-    height: auto;
-    aspect-ratio: 16 / 9;
+  width: auto;
+  height: auto; 
+  aspect-ratio: 16 / 9; 
 }
 
-/* Position the buttons correctly relative to their parent div */
-#trailer .buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5em;
-    margin-top: 2em;
-}
 
-/* Override the default anchored button positioning */
-#trailer .button.anchored {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    right: auto;
-    top: auto;
-    margin: 0;
-}
 
 /* Contact */
 
@@ -2504,17 +2477,9 @@ body::before {
     position: absolute;
     bottom: 0;
     left: 50%;
-	
 
 	
-
-
-
-
-
-
-
-
+	
 
 
 
