@@ -2352,18 +2352,21 @@ input, select, textarea {
     aspect-ratio: 16 / 9;
 }
 
-#trailer .button.anchored {
-    position: relative;
-    bottom: auto;
+/* Styles for the buttons container */
+#trailer .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 2em;
+    gap: 1em; /* Add space between the buttons */
 }
 
-#trailer .content {
-    max-width: 90% !important;
-    padding: 0 1.5em;
-    margin: 0 auto;
+#trailer .button {
+    position: relative; /* Override potential absolute positioning */
+    bottom: auto;
+    left: auto;
+    right: auto;
 }
-
 
 /* Contact */
 
@@ -2487,6 +2490,7 @@ body::before {
 	
 
 	
+
 
 
 
