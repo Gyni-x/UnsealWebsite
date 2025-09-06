@@ -1823,6 +1823,7 @@ input, select, textarea {
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
+				background-size: cover; /*wrap backgrond image*/
 			}
 
 				.gallery article {
@@ -2486,6 +2487,7 @@ body::before {
 #trailer .content header {
    padding: 0.25em 0 0.25em 0;
 }
+
 
 
 
