@@ -2358,6 +2358,7 @@ input, select, textarea {
     max-width: 90% !important;
     padding: 0 1.5em;
     margin: 0 auto;
+	position: relative;
 }
 
 
@@ -2484,6 +2485,7 @@ body::before {
 	
 
 	
+
 
 
 
