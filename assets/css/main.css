@@ -2460,16 +2460,16 @@ body::before {
     left: 50%;
 
 /*Youtube video-container*/
-/*#trailer .content{
-	width: 80em !important; 
-	max-width: none !important;
-	margin: none;
+
+#trailer .content {
+    width: 80em !important;
+    max-width: none !important;
 }
 
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     margin: 0 auto 2em;
@@ -2483,7 +2483,6 @@ body::before {
     height: 100%;
 }
 
-*/
 
 
 
