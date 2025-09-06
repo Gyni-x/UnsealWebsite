@@ -2460,29 +2460,32 @@ body::before {
     left: 50%;
 
 /*Youtube video-container*/
+
 #trailer .content {
-	width: 80em;
-	max-width: none;
+    width: 80% !important;
+    max-width: none !important;
 }
 
-#trailer .content .video-container {
+/* * This rule makes the YouTube video responsive within the wider content box.
+ * The padding-bottom maintains the 16:9 aspect ratio.
+ */
+.video-container {
     position: relative;
     width: 100%;
-    /* 16:9 aspect ratio */
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     margin: 0 auto 2em;
 }
 
-#trailer .content .video-container iframe {
+.video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
-	
+
 
 
 
