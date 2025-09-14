@@ -550,9 +550,20 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		/*Lancelot font*/
+		/*Origin font  
+		font-weight: 900; */
+		
+		/*Lancelot font
 		font-family: "Lancelot", serif;
-		font-weight: 900;
+		font-weight: 400;
+		font-style: normal;
+		*/
+
+		/*Cinzel-decorative font*/
+		font-family: "Cinzel Decorative", serif;
+		font-weight: 400;
+		font-style: normal;
+		
 		color: #0d5334;
 		letter-spacing: -0.0325em;
 	}
@@ -2487,6 +2498,7 @@ body::before {
 #trailer .content header {
    padding: 0.25em 0 0.25em 0;
 }
+
 
 
 
