@@ -562,7 +562,7 @@ input, select, textarea {
 		*/
 		
 		/*font-weight: 900;*/
-		color: #0d5334;
+		color: #82db56;
 		letter-spacing: -0.0325em;
 	}
 
@@ -733,7 +733,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #0d5334;
+			background-color: #82db56;
 		}
 
 		input[type="button"]:active,
@@ -2496,6 +2496,7 @@ body::before {
 #trailer .content header {
    padding: 0.25em 0 0.25em 0;
 }
+
 
 
 
