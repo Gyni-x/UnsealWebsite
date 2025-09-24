@@ -2070,7 +2070,7 @@ input, select, textarea {
 			}
 
 			.main.style3.secondary {
-				background: #000000;
+				/*background: #000000;*/
 			}
 /* intro text color */
 		.main.dark {
@@ -2518,6 +2518,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
