@@ -91,11 +91,17 @@ input, select, textarea {
 	}
 
 	body {
-		background: #000000 url("images/BG.main.style3.primary.jpg") repeat fixed center center;
+		background: #000000 url("images/BG.main.style3.primary.jpg") repeat fixed;
 		background-size: 100% auto; 
 		height: 100%;
 		min-width: 320px;
 	}
+/*half the image size on mobile*/
+@media (max-width: 768px) {
+    body {
+        background-size: 50% auto;
+    }
+}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -2518,6 +2524,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
