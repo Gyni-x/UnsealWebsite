@@ -2326,7 +2326,7 @@ input, select, textarea {
 
 	#two {
 		/*background: url("images/overlay.png"), url("../../images/two.jpg");*/
-		background: #000000;
+		/*background: #000000;*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2523,6 +2523,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
