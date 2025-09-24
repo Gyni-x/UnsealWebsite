@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background: url("images/BG.main.style3.primary.jpg") repeat fixed;
 }
 
 ol, ul {
@@ -2063,9 +2064,9 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: url("images/BG.main.style3.primary.jpg") repeat fixed;
+				/*background: url("images/BG.main.style3.primary.jpg") repeat fixed;
 				background-size: cover;
-				background-color: #000000; /* Fallback if image not loaded */
+				background-color: #000000; */
 			}
 
 			.main.style3.secondary {
@@ -2517,6 +2518,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
