@@ -512,8 +512,12 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+		/*font-family: "Source Sans Pro", "sans-serif";
 		font-weight: 300;
+		*/
+		font-family: "Lancelot", serif;
+		font-weight: 400;
+		
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #82db56;
@@ -2529,6 +2533,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
