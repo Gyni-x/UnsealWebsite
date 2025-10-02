@@ -441,14 +441,9 @@ input, select, textarea {
 			transform-origin: 50% 50%;
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-
-			font-family: "Lancelot", serif;
-			font-weight: 400;
+			font-family: FontAwesome;
 			font-style: normal;
-			
-			/*font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;*/
+			font-weight: normal;
 			text-transform: none !important;
 			color: #e5e6e7;
 			content: '\f1ce';
@@ -570,12 +565,6 @@ input, select, textarea {
 		font-family: "Cinzel Decorative", serif;
 		font-weight: 400;
 		font-style: normal;
-		
-		/*Lancelot font
-		font-family: "Lancelot", serif;
-		font-weight: 400;
-		font-style: normal;
-		*/
 		
 		/*font-weight: 900;*/
 		color: #82db56;
@@ -2533,6 +2522,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
