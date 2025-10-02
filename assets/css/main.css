@@ -515,7 +515,7 @@ input, select, textarea {
 		
 		font-size: 18pt;
 		line-height: 1.75em;
-		color: #82db56;
+		color: #5d5d5e;
 		letter-spacing: 0.025em;
 	}
 
@@ -2522,6 +2522,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
