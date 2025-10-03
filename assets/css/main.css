@@ -719,7 +719,7 @@ h3 {
 			height: 5em;
 			line-height: 4.5em;
 			padding: 0;
-			background-image: url("images/Logo_256x256.png");
+			background-image: url("images/LogoCageOnly_256x256.png");
 			background-position: center center;
 			background-repeat: no-repeat;
 			
@@ -771,7 +771,7 @@ h3 {
 		.button.style2,
 		button.style2 {
 			background-color: transparent;
-			border: solid 2px #1a8343a1;
+			border: solid 2px #ffffffa1;
 			color: inherit;
 		}
 
@@ -796,7 +796,7 @@ h3 {
 			input[type="reset"].style2.down,
 			.button.style2.down,
 			button.style2.down {
-				background-image: url("images/Logo_256x256.png");
+				background-image: url("images/LogoCageOnly_256x256.png");
 			}
 
 /* Form */
@@ -2538,6 +2538,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
