@@ -583,6 +583,9 @@ input, select, textarea {
 	}
 
 h3 {
+	font-family: "Lancelot", serif;
+		font-weight: 400;
+	
 		font-size: 1em;
 		line-height: 0.75em;
 		letter-spacing: -0.05em; 
@@ -2533,6 +2536,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
