@@ -780,7 +780,7 @@ h3 {
 			input[type="reset"].style2:hover,
 			.button.style2:hover,
 			button.style2:hover {
-				background-color: #1a8343a1;
+				background-color: #82db565e;
 			}
 
 			input[type="button"].style2:active,
@@ -788,7 +788,7 @@ h3 {
 			input[type="reset"].style2:active,
 			.button.style2:active,
 			button.style2:active {
-				background-color: rgba(229, 230, 231, 0.375);
+				background-color: #82db569c;
 			}
 
 			input[type="button"].style2.down,
@@ -2106,11 +2106,11 @@ h3 {
 			}*/
 
 				.main.dark .button.style2:hover {
-					background-color: rgba(255, 255, 255, 0.125);
+					background-color: #82db565e;
 				}
 
 				.main.dark .button.style2:active {
-					background-color: rgba(255, 255, 255, 0.25);
+					background-color: #82db569c;
 				}
 
 				.main.dark .button.style2.down {
@@ -2538,6 +2538,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
