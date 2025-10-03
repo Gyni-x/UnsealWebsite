@@ -582,10 +582,21 @@ input, select, textarea {
 		letter-spacing: -0.05em; 
 	}
 
+h3 {
+		font-size: 1em;
+		line-height: 0.75em;
+		letter-spacing: -0.05em; 
+	}
+
+
+
 	@media screen and (max-width: 736px) {
 
 		h2 {
 			font-size: 1.5em;
+		}
+		h3 {
+			font-size: 0.75em;
 		}
 
 	}
@@ -2522,6 +2533,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
