@@ -719,7 +719,7 @@ h3 {
 			height: 5em;
 			line-height: 4.5em;
 			padding: 0;
-			background-image: url("images/dark-arrow.svg");
+			background-image: url("images/Logo_256x256.png");
 			background-position: center center;
 			background-repeat: no-repeat;
 			text-indent: -10em;
@@ -794,7 +794,7 @@ h3 {
 			input[type="reset"].style2.down,
 			.button.style2.down,
 			button.style2.down {
-				background-image: url("images/arrow.svg");
+				background-image: url("images/Logo_256x256.png");
 			}
 
 /* Form */
@@ -2112,7 +2112,7 @@ h3 {
 				}
 
 				.main.dark .button.style2.down {
-					background-image: url("images/dark-arrow.svg");
+					background-image: url("images/Logo_256x256.png");
 				}
 
 		body.is-touch .main {
@@ -2536,6 +2536,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
