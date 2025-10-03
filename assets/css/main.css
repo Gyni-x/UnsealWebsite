@@ -618,7 +618,7 @@ h3 {
 		-webkit-transition: color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
-		color: #00f9ff;
+		color: #82db56;
 	}
 
 	sub {
@@ -2536,6 +2536,7 @@ body::before {
     text-align: center; /* Optional: Center content horizontally */
   }
 }
+
 
 
 
