@@ -267,3 +267,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// Automatically updates the copyright year to the current year
+const yearSpan = document.getElementById('current-year');
+if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+}
+
