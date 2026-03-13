@@ -2295,8 +2295,7 @@ h3 {
 #intro {
     position: relative;
     overflow: hidden;
-    min-height: 100vh; /* Ensures the intro section covers at least the full screen height */
-}
+    min-height: 100vh; 
 
 /* UI Content Layer */
 #intro .content {
@@ -2305,7 +2304,7 @@ h3 {
     /* Optional: padding-top: 20vh; if you want the text lower on the screen */
 }
 
-/* Static Background (Video & Image) */
+/* Background */
 #bg-video,
 #bg-mobile-image,
 #bg-video-mobile {
@@ -2328,7 +2327,7 @@ h3 {
 
     /* Show mobile-specific background */
     #bg-mobile-image {
-        display: block; /* Shows image on mobile */
+        display: block; 
     }
 
     /* If you prefer mobile video over mobile image, 
