@@ -2076,20 +2076,21 @@ h3 {
 .main.style3 {
     width: 100%;
     padding: 6em 0;
+    text-align: center;
 }
 
 .main.style3 .content {
     max-width: 800px; 
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding: 0 2em;
-    
-    text-align: center; 
+    text-align: center;
 }
 
-.main.style3 .content > header {
-    margin-bottom: 2em;
-    text-align: center; 
+.main.style3 .content h2, 
+.main.style3 .content p {
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
