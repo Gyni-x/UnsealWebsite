@@ -2073,25 +2073,32 @@ h3 {
 
 
 
+.main.style3 {
+    text-align: center;
+    /* Remove max-width and margin:auto from here so the BG stays full-width */
+    padding: 6em 0; 
+    width: 100%;
+}
 
-		.main.style3 {
-			text-align: center;
-			max-width: 800px; 
-			margin-left: auto;
-			margin-right: auto;
-			padding: 6em 2em; 
+/* This is where we limit the text width */
+.main.style3 .content {
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2em; /* Keeps text away from edges on mobile */
+}
 
-		}
+.main.style3 .content > header {
+    margin-bottom: 2em;
+}
 
-			.main.style3 .content > header {
-				margin-bottom: 2em;
-			}
+.main.style3.primary {
+    background: url("images/BG.main.style3.primary.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: #000000;
+}
 
-			.main.style3.primary {
-				/*background: url("images/BG.main.style3.primary.jpg") repeat fixed;
-				background-size: cover;
-				background-color: #000000; */
-			}
+
 
 			.main.style3.secondary {
 				/*background: #000000;*/
