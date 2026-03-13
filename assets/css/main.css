@@ -2076,7 +2076,11 @@ h3 {
 
 		.main.style3 {
 			text-align: center;
-			padding: 3em 10px 3em 10px;
+			max-width: 800px; 
+			margin-left: auto;
+			margin-right: auto;
+			padding: 6em 2em; 
+
 		}
 
 			.main.style3 .content > header {
