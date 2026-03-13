@@ -2292,54 +2292,49 @@ h3 {
 
 
 /* Intro */
+/* 1. The Container: This creates the 'window' */
 #intro {
     position: relative;
+    height: 100vh;
     overflow: hidden;
-    min-height: 100vh; 
+    /* This is the magic: it clips the fixed video to ONLY this section */
+    clip-path: inset(0 0 0 0); 
+}
 
-/* UI Content Layer */
+/* 2. The Content: Your Logo and "The Void Path" */
 #intro .content {
     position: relative;
     z-index: 10;
-    /* Optional: padding-top: 20vh; if you want the text lower on the screen */
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-/* Background */
+/* 3. The Video/Image: Static background */
 #bg-video,
-#bg-mobile-image,
-#bg-video-mobile {
-    position: fixed; /* Fixes background to the viewport */
+#bg-mobile-image {
+    position: fixed; /* Keep it fixed so it doesn't move */
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    z-index: -100; /* Stays behind all other content */
-    pointer-events: none; /* Prevents the video from interfering with clicks on the UI */
+    z-index: -1; /* Move it just behind the text */
+    pointer-events: none;
 }
 
-/* Mobile Responsiveness */
+/* 4. Mobile handling */
 @media screen and (max-width: 768px) {
-    /* Hide desktop video on mobile */
     #bg-video {
         display: none !important;
     }
-
-    /* Show mobile-specific background */
     #bg-mobile-image {
-        display: block; 
-    }
-
-    /* If you prefer mobile video over mobile image, 
-       flip the 'display' values below */
-    #bg-video-mobile {
-        display: none; 
+        display: block !important;
+        position: fixed;
     }
 }
 
-/* Default state: Hide mobile elements on Desktop */
-#bg-mobile-image,
-#bg-video-mobile {
+#bg-mobile-image {
     display: none;
 }
 
