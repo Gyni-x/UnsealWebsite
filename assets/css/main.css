@@ -2495,7 +2495,9 @@ body::before {
 }
 
 #trailer.main.style3 > .content {
-    width: auto;
+    width: 80%;        /* Or use 50em; to match other parts of your site */
+    max-width: 900px;  /* Keeps it from getting too huge */
+    margin: 0 auto;    /* Centers it */
 }
 
 .video-container {
